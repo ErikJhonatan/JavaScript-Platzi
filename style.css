@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: #F0F0F2;
+    justify-content: space-around;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+
+}
+header .header-tittle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+header img{
+    width: 96px;
+    height: 36px;
+}
+main {
+    background-color: #F0F0F2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+main .main-cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 250px;
+    height: 394px;
+    background: #04D9C4;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.main--tittle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #F0F0F2;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cuadrado .main-cuadrado--icon{
+    width: 102px;
+    height: 102px;
+    background-image: url('./assets/icons/cuadrado.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input {
+    font-weight: 700;
+    margin: auto;
+    width: 180px;
+    height: 30px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.055);
+    background: none;
+    color: #F0F0F2;
+    border: none;
+    outline: none;
+    text-align: center;
+    position: relative;
+    left: 35px;
+    top: 14px;
+    border-radius: 5px;
+    border-bottom: 2px solid #5B48D9;
+}
+.input::placeholder{
+    color: rgb(212, 212, 212);
+    text-align: center;
+}
+.button {
+    position: relative;
+    left: 87px;
+    top: 26px;
+    width: 76px;
+    height: 30px;
+    background: #F20519;
+    cursor: pointer;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(105, 105, 105, 0.253);
+}
+.button:active {
+    background: #79040d;
+}
+.main--result{
+    width: 194px;
+    height: auto;
+    text-align: left;
+    position: relative;
+    top: 30px;
+    margin: 0 auto 0;
+}
+.main--result span {
+    display: block;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #F0F0F2;
+    margin-bottom: 5px;
+}
+.main--result .result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 35px;
+    background: #F0F0F2;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 1.4rem;
+}
+.main-triangulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 250px;
+    height: 480px;
+    background: #04D9C4;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.main-triangulo--icon {
+    width: 115px;
+    height: 102px;
+    background-image: url('./assets/icons/triangulo.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main--circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 250px;
+    height: 480px;
+    background: #04D9C4;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.main-circulo--icon{
+    width: 110px;
+    height: 110px;
+    background-image: url('./assets/icons/circle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

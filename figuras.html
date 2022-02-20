@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras html</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-tittle">
+            Calculadora de Perímetro y Área
+        </h1>
+        <img src="./assets/icons/figures.svg" alt="">
+    </header>
+    <main>
+        <section class="main-cuadrado">
+            <div class="main--tittle"> 
+                <span>Cuadrado</span>
+            </div>
+            <div class="main-cuadrado--icon"></div>
+                <form action="">
+                    <label for="InputCuadrado">
+                        <input class="input" id="InputCuadrado" type="number" placeholder="Ingrese medida del lado">
+                    
+                        <button class="button" type="button" onclick="calcularCuadrado()">Calcular</button>
+                        <div class="main--result">
+                            <span>Perímetro del Cuadrado</span>
+                            <p class="result" id="cuadradoPerimetro"></p>
+                            <span>Área del cuadrado</span>
+                            <p class="result" id="cuadradoArea"></p>
+                        </div>
+                    </label>
+                </form>
+        </section>
+        <section class="main-triangulo">
+            <div class="main--tittle">
+                <span>Triángulo</span>
+            </div>
+            <div class="main-triangulo--icon" ></div>
+            <form action="">
+                <label for="perimetroTriangulo">
+                    <input class="input" id="InputLado1" type="number" placeholder="Lado 1 del Triangulo">
+                    <input class="input" id="InputLado2" type="number" placeholder="Lado 2 del Triangulo">
+                    <input class="input" id="InputLado3" type="number" placeholder="Base del triangulo">
+                    <input class="input" id="Altura" type="number" placeholder="Altura del triángulo">
+                    <button class="button" onclick="calcularTriangulo()" type="button">Calcular</button>
+                    <div class="main--result">
+                        <span>Perímetro del Tríangulo</span>
+                        <p class="result" id="trianguloPerimetro"></p>
+                        <span>Área del  Triangulo</span>
+                        <p class="result" id="trianguloArea"></p>
+                    </div>
+                </label>
+            </form>
+        </section>
+        <section class="main--circulo">
+            <div class="main--tittle">
+                <span>Círculo</span>
+            </div>
+        </div>
+        <div class="main-circulo--icon"></div>
+        <form action="">
+            <label for="perimetroTriangulo">
+                <input class="input" id="Input" type="number" placeholder="Ingrese el Radio del Círculo">
+                <button class="button" onclick="calcularCirculo()" type="button">Calcular</button>
+                <div class="main--result">
+                    <span>Diámetro</span>
+                    <p class="result" id="circuloDiametro"></p>
+                    <span>Circunferencia</span>
+                    <p class="result" id="circuloCircunferencia"></p>
+                    <span>Área</span>
+                    <p class="result" id="circuloArea"></p>
+                </div>
+            </label>
+        </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./figuras.js"></script>
+</body>
+</html>
