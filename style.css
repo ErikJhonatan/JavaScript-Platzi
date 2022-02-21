@@ -15,7 +15,6 @@ header {
     background: #F0F0F2;
     justify-content: space-around;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
-
 }
 header .header-tittle {
     font-family: Roboto;
