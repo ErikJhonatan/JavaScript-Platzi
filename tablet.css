@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 90px;
+}
+header .header-tittle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.9rem;
+}
+header img{
+    width: 106px;
+    height: 46px;
+}
+main .main-cuadrado {
+    width: 290px;
+    height: 394px;
+}
+.main--tittle{
+    font-size: 2.8rem;
+}
+.input {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: auto;
+    width: 230px;
+    height: 30px;
+}
+.button {
+    position: relative;
+    left: 97px;
+    top: 26px;
+    width: 96px;
+    height: 30px;
+}
+.main--result .result{
+    font-size: 1.6rem;
+}
+.main-triangulo{
+    width: 290px;
+    height: 480px;
+}
+.main--circulo{
+    width: 290px;
+    height: 480px;
+}
